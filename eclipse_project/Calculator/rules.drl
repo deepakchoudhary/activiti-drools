@@ -1,0 +1,24 @@
+package org.activiti.demo.rules
+
+import org.activiti.demo.rules.RuleInput;
+import org.activiti.demo.rules.RuleOutput;
+
+rule "rule1" 
+when
+    i : RuleInput( oper == "add" )
+then
+    System.out.println("testing");
+    RuleOutput o = new RuleOutput();
+    o.setResult("add");
+    insert(o);
+end
+  
+
+//rule "Your Second Rule"
+    //include attributes such as "salience" here...
+  //  when
+        //conditions
+//    then
+        //actions
+
+end
