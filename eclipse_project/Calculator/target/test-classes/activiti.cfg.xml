@@ -7,5 +7,11 @@
 	<bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneInMemProcessEngineConfiguration">
 		<property name="databaseSchemaUpdate" value="true"/>
 		
+		 <property name="customPostDeployers">
+      			<list>
+			        <bean class="org.activiti.engine.impl.rules.RulesDeployer" />
+      			</list>
+    		</property>
 	</bean>
+	
 </beans>

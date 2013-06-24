@@ -29,5 +29,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="/home/deepak/new_tomcat/webapps/activiti-rest/WEB-INF/lib/activiti-engine-5.12.1.jar"/>
+	<classpathentry kind="lib" path="/home/deepak/Documents/eclipse_project/Drools/drools-api-5.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/deepak/Documents/eclipse_project/Drools/drools-compiler-5.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/deepak/Documents/eclipse_project/Drools/drools-core-5.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/deepak/Documents/eclipse_project/Drools/mvel2-2.1.0.drools16.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

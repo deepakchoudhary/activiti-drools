@@ -57,22 +57,7 @@
 	  <artifactId>spring-tx</artifactId>
 	  <version>3.2.3.RELEASE</version>
 	</dependency>
-	<dependency>
-      <groupId>org.drools</groupId>
-      <artifactId>drools-api</artifactId>
-      <version>5.1.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.drools</groupId>
-      <artifactId>drools-core</artifactId>
-      <version>5.1.1</version>
-    </dependency>
-    
-    <dependency>
-      <groupId>org.drools</groupId>
-      <artifactId>drools-compiler</artifactId>
-      <version>5.1.1</version>
-    </dependency>
+	
     <dependency>
 		<groupId>org.mvel</groupId>
 		<artifactId>mvel2</artifactId>
