@@ -9,6 +9,6 @@ when
 then
     System.out.println("testing");
     RuleOutput o = new RuleOutput();
-    o.setResult("1");
+    o.setResult(1);
     insert(o);
 end
