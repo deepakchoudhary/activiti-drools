@@ -3,7 +3,7 @@ package org.activiti.demo.rules;
 import org.activiti.demo.rules.RuleInput;
 import org.activiti.demo.rules.RuleOutput;
 
-rule "rule1" 
+rule rule1 
 when
     i : RuleInput( oper == "add" )
 then
