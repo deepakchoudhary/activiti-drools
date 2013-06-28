@@ -15,7 +15,7 @@ import org.junit.Test;
 
 public class ProcessTestMyProcess {
 
-	private String filename = "/home/deepak/Documents/eclipse_project/Calculator/Calculator_flow.bpmn";
+	private String filename = "/home/deepak/Documents/eclipse_project/Calculator/MyProcess.bpmn";
 
 	@Rule
 	public ActivitiRule activitiRule = new ActivitiRule();

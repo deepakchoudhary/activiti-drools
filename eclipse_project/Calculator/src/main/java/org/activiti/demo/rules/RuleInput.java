@@ -8,14 +8,14 @@ public class RuleInput implements Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private int myresult;
+	private String myresult;
 	private String oper;
 	
-	public int getMyresult() {
+	public String getMyresult() {
 		return myresult;
 	}
 	
-	public void setMyresult(int myresult) {
+	public void setMyresult(String myresult) {
 		this.myresult = myresult;
 	}
 	

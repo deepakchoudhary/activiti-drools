@@ -8,13 +8,13 @@ public class RuleOutput implements Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private int result;
+	private String result;
 	
-	public int getResult() {
+	public String getResult() {
 		return result;
 	}
 	
-	public void setResult(int result) {
+	public void setResult(String result) {
 		this.result = result;
 	}
 }
