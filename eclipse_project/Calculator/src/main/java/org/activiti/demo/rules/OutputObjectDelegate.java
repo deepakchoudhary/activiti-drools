@@ -16,7 +16,7 @@ public class OutputObjectDelegate implements JavaDelegate {
     if(outputList == null) return;
     for (Object object : outputList) {
     	System.out.println("object " + object);
-    	if(object instanceof RuleOutput) {
+    	if(object instanceof RuleInput) {
     		execution.setVariable("ruleresult", object);
     	}
 	}

@@ -5,10 +5,9 @@ import org.activiti.demo.rules.RuleOutput;
 
 rule rule1 
 when
-    i : RuleInput( oper == "fozzie" )
+    ruleInput : RuleInput( oper == "fozzie" )
 then
     System.out.println("testing");
-    RuleOutput o = new RuleOutput();
-    o.setResult(1);
-    insert(o);
+    ruleInput.setOper("yo");
+    //insert(o);    
 end

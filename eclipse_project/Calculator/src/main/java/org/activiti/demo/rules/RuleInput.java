@@ -8,22 +8,16 @@ public class RuleInput implements Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private String myresult;
+
 	private String oper;
 	
-	public String getMyresult() {
-		return myresult;
-	}
-	
-	public void setMyresult(String myresult) {
-		this.myresult = myresult;
-	}
-	
 	public String getOper() {
+		System.out.println("getting operator");
 		return oper;
 	}
 	
 	public void setOper(String oper) {
+		System.out.println("Setting operator");
 		this.oper = oper;
 	}
 	
@@ -31,7 +25,6 @@ public class RuleInput implements Serializable {
 
 	@Override
 	public String toString() {
-		return "RuleInput [oper=" + oper + ", myresult="
-				+ myresult + "]";
+		return "RuleInput [oper=" + oper + "]";
 	}
 }
